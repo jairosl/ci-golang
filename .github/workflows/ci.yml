@@ -14,4 +14,4 @@ jobs:
          go-version: '>=1.17.0'
       - run: go env -w GO111MODULE=auto
       - run: go test
-      - run: go run math.got
+      - run: go run math.go
