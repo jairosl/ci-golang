@@ -12,6 +12,5 @@ jobs:
       - uses: actions/setup-go@v4
         with:
          go-version: '>=1.17.0'
-      - run: go env -w GO111MODULE=auto
       - run: go test
       - run: go run math.go
